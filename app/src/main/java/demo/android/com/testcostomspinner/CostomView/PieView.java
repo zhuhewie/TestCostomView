@@ -11,6 +11,7 @@ import android.view.View;
 import java.util.ArrayList;
 
 /**
+ * https://www.gcssloop.com/customview/Canvas_BasicGraphics
  * Created by Administrator on 2016-12-2.
  * 试着写<<安卓自定义View进阶-Canvas之绘制图形>>
  *     的圆饼图
