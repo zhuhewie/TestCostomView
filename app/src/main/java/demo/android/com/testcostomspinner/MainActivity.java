@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
+import demo.android.com.testcostomspinner.CostomView.MyCanvas_2;
 import demo.android.com.testcostomspinner.CostomView.PieData;
 import demo.android.com.testcostomspinner.CostomView.PieView;
 
@@ -14,19 +15,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        1:canvas初探
 //        setContentView(new MyCanvas(this));//简单的几何图案
-        PieView view = new PieView(this);
-        setContentView(view); // 饼状图
-        addPieData(view);
-        view.setStartAngle(120);
 
-//        TextView tv = (TextView) findViewById(R.id.tv);
-//        tv.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                i = i+1;
-//            }
-//        });
+        //2:Canvas画圆饼图
+//        PieView view = new PieView(this);
+//        setContentView(view); // 饼状图
+//        addPieData(view);
+//        view.setStartAngle(120);
+
+
+        //3:Canvas之画布操作
+        MyCanvas_2 view = new MyCanvas_2(this);
+        setContentView(view); // 饼状图
+
     }
 
     private void addPieData(PieView view) {
