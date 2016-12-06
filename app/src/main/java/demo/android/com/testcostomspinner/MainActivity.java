@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-import demo.android.com.testcostomspinner.CostomView.MyCanvas_2;
+import demo.android.com.testcostomspinner.CostomView.MyCanvasPictureAndBitmap;
 import demo.android.com.testcostomspinner.CostomView.PieData;
 import demo.android.com.testcostomspinner.CostomView.PieView;
 
@@ -26,8 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
 
         //3:Canvas之画布操作
-        MyCanvas_2 view = new MyCanvas_2(this);
+//        MyCanvas_2 view = new MyCanvas_2(this);
+//        setContentView(view); // 饼状图
+
+
+//        4:Canvas之图片
+        MyCanvasPictureAndBitmap view = new MyCanvasPictureAndBitmap(this);
         setContentView(view); // 饼状图
+
 
     }
 
