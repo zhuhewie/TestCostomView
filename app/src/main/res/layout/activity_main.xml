@@ -5,16 +5,30 @@
               android:orientation="vertical"
     >
 
-    <android.support.v7.widget.AppCompatSpinner
+    <demo.android.com.testcostomspinner.CostomView.CheckView
+        android:id="@+id/checkView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="选中"
+            />
 
-    </android.support.v7.widget.AppCompatSpinner>
-
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="测试"
-        />
+        <Button
+            android:id="@+id/bt_uncheck"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消选中"
+            />
+    </LinearLayout>
 </LinearLayout>
