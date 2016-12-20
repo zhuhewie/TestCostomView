@@ -78,7 +78,6 @@ public class MyCanvasText extends View {
         super.onDraw(canvas);
         //drawText(canvas);//第一类 drawText
         drawPosText(canvas);//第二类
-
     }
 
     /**
