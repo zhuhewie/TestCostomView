@@ -7,7 +7,7 @@ import android.widget.Button;
 import java.util.ArrayList;
 
 import demo.android.com.testcostomspinner.CostomView.CheckView;
-import demo.android.com.testcostomspinner.CostomView.MyCanvasText;
+import demo.android.com.testcostomspinner.CostomView.MyCanvasPath1;
 import demo.android.com.testcostomspinner.CostomView.PieData;
 import demo.android.com.testcostomspinner.CostomView.PieView;
 
@@ -47,7 +47,11 @@ public class MainActivity extends AppCompatActivity {
 //        addClick();
 
         //6:Cnavas之绘制文字
-        MyCanvasText view = new MyCanvasText(this);
+//        MyCanvasText view = new MyCanvasText(this);
+//        setContentView(view);
+
+//        7:path基本操作
+        MyCanvasPath1 view = new MyCanvasPath1(this);
         setContentView(view);
 
     }
